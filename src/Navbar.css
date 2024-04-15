@@ -1,0 +1,38 @@
+.navbar {
+    display: flex;
+    justify-content: end;
+    background-color: blue; /* Background color for the navbar */
+    padding: 10px 20px; /* Adjust padding as needed */
+    margin: 0; /* Remove any default margin */
+    border-bottom: 2px solid #ddd; /* Add a border at the bottom */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+    height: 50px;
+    
+
+   
+  }
+  .navbar ul {
+    list-style: none; /* Remove default list styles */
+    padding: 0; /* Remove default padding */
+    margin-left: auto;
+    
+  }
+  
+  .navbar li {
+    display: inline;
+    margin-right: 20px; /* Adjust margin between navbar items */
+    
+  }
+  
+  .navbar li:last-child {
+    margin-right: 0; /* Remove margin from the last item */
+  }
+  
+  .navbar li a {
+    color: white; /* Text color for navbar items */
+    text-decoration: none; /* Remove default underline */
+  }
+  
+  .navbar li a:hover {
+    color: red; /* Text color on hover */
+  }
